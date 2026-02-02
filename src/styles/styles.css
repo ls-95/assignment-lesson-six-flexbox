@@ -29,14 +29,15 @@ body {
 
 .card__box {
   background-color: #9d0208;
-  height: 78px;
-  width: 78px;
+  height: 58px;
+  width: 58px;
+  padding: 10px;
   border-radius: 4px;
   margin: 10px;
 }
 
 .box--tall {
-  height: 120px;
+  padding: 31px 10px;
 }
 
 .card--one {
@@ -60,4 +61,17 @@ body {
 
 .card--four > .card--bottom {
   align-self: flex-end;
+}
+
+.card--five {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card--five > .box--small {
+  height: 44px;
 }
