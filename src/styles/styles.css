@@ -48,3 +48,8 @@ body {
 .card--two > .card__box {
   height: 120px;
 }
+
+.card--three {
+  justify-content: flex-end;
+  align-items: center;
+}
