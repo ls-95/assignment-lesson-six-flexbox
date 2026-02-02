@@ -40,21 +40,25 @@ body {
   padding: 31px 10px;
 }
 
+/* Top left card styling */
 .card--one {
   justify-content: flex-start;
   align-items: flex-end;
 }
 
+/* Top right card styling */
 .card--two {
   justify-content: center;
   align-items: center;
 }
 
+/* Middle left card styling */
 .card--three {
   justify-content: flex-end;
   align-items: center;
 }
 
+/* Middle right card styling */
 .card--four {
   justify-content: space-between;
 }
@@ -63,6 +67,7 @@ body {
   align-self: flex-end;
 }
 
+/* Bottom left card styling */
 .card--five {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -74,4 +79,14 @@ body {
 
 .card--five > .box--small {
   height: 44px;
+}
+
+/* Bottom right card styling */
+.card--six {
+  justify-content: center;
+  align-items: center;
+}
+
+.card--six > .box--wide {
+  flex-grow: 0.5;
 }
