@@ -90,3 +90,10 @@ body {
 .card--six > .box--wide {
   flex-grow: 0.5;
 }
+
+.card--two > .card__box,
+.card--three > .card__box,
+.card--four > .card__box,
+.card--six > .card__box {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
