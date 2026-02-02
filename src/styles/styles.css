@@ -27,7 +27,7 @@ body {
   display: flex;
 }
 
-.box {
+.card__box {
   background-color: #9d0208;
   height: 78px;
   width: 78px;
